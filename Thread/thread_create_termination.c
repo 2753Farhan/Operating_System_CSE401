@@ -1,10 +1,13 @@
-    /*
-    ## Markdown in a C File
+ /*
+ Compile:
 
-    You can include Markdown content within C-style comments.
-    - This won't affect the functionality of your C code.
-    - It's useful for adding documentation and explanations.
-    */
+    C compiler: cc -lpthread pthread1.c
+    or
+    C++ compiler: g++ -lpthread pthread1.c
+
+
+Run: ./a.out
+ */
 
 #include <stdio.h>
 #include <stdlib.h>
