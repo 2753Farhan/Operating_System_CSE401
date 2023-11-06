@@ -1,10 +1,19 @@
-The Fork system call is used for creating a new process in Linux, and Unix systems, which is called the child process, which runs concurrently with the process that makes the fork() call (parent process). After a new child process is created, both processes will execute the next instruction following the fork() system call.
+# The `fork` System Call
 
-The child process uses the same pc(program counter), same CPU registers, and same open files which use in the parent process. It takes no parameters and returns an integer value.
+The `fork` system call is used for creating a new process in Linux and Unix systems. This new process is referred to as the child process and runs concurrently with the process that invokes the `fork()` call, known as the parent process. After creating a new child process, both processes will execute the next instruction following the `fork()` system call.
 
-Below are different values returned by fork().
+## Child Process Characteristics
 
-Negative Value: The creation of a child process was unsuccessful.
-Zero: Returned to the newly created child process.
-Positive value: Returned to parent or caller. The value contains the process ID of the newly created child process.
+- **Program Counter (PC):** The child process uses the same program counter as the parent process.
+- **CPU Registers:** It shares the same CPU registers as the parent process.
+- **Open Files:** The child process has access to the same open files used by the parent process.
+- **Parameters:** `fork()` takes no parameters.
+- **Return Value:** `fork()` returns an integer value.
+
+## Return Values
+
+- **Negative Value:** If the creation of a child process was unsuccessful.
+- **Zero:** Returned to the newly created child process.
+- **Positive Value:** Returned to the parent or caller. The value contains the process ID of the newly created child process.
+
 
