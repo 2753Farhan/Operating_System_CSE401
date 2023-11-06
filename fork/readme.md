@@ -31,15 +31,17 @@ int main() {
     return 0;
 }
 ```
-Output
-hello
-hello
-hello
-hello
-hello
-hello
-hello
-hello
+## Output
 
+```
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+```
 
 
