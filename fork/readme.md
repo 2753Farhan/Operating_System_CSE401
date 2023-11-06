@@ -16,7 +16,7 @@ The `fork` system call is used for creating a new process in Linux and Unix syst
 - **Zero:** Returned to the newly created child process.
 - **Positive Value:** Returned to the parent or caller. The value contains the process ID of the newly created child process.
 
-## Example 2: Calculate the number of times 'hello' is printed
+## Example : Calculate the number of times 'hello' is printed
 
 ```c
 #include <stdio.h>
