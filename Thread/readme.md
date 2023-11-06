@@ -27,4 +27,4 @@ Mutexes are used to prevent data inconsistencies due to race conditions. A race 
 
 ## Resources:
 
-This is the [detailed explanation](https://www.cs.cmu.edu/afs/cs/academic/class/15492-f07/www/pthreads.html).
+Here is the [detailed explanation](https://www.cs.cmu.edu/afs/cs/academic/class/15492-f07/www/pthreads.html).
