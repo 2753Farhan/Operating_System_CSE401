@@ -82,5 +82,3 @@ So there is a total of eight processes (new child processes and one original pro
    /
  P7
 ```
-
-
