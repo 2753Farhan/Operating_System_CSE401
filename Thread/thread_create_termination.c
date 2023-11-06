@@ -31,6 +31,7 @@ int main()
     printf("Thread 1 returns: %d\n",itr1);
     printf("Thread 2 returns: %d\n",itr2);
     exit(0);
+
 }
 
 void *print_message_function(void *ptr)
