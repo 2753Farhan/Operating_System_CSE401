@@ -54,9 +54,9 @@ fork();   // Line 2
 fork();   // Line 3
 ```
 
-- **L1: There will be 1 child process created by Line 1.
-- **L2: There will be 2 child processes created by Line 2.
-- **L3: There will be 4 child processes created by Line 3.
+- L1: There will be 1 child process created by Line 1.
+- L2: There will be 2 child processes created by Line 2.
+- L3: There will be 4 child processes created by Line 3.
 So there is a total of eight processes (new child processes and one original process). If we want to represent the relationship between the processes as a tree hierarchy,
 it would be as follows:
 ```
