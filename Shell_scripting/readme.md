@@ -49,3 +49,17 @@ Examples:
 [ n1 -ne n2 ]  (true if n1 is not same as n2, else false)
 [ n1 -gt n2 ]  (true if n1 greater then n2, else false)
 [ n1 -lt n2 ]  (true if n1 less then n2, else false)
+
+
+
+
+file test operators:
+-e : flag used for checking whether the file exists or not
+-f : whether file exists it is a regular file or not
+-d : flag used for checking whether the directory exists or not
+-b :
+-c :
+-s : flag used for checking whether the file is empty or not
+-r : flag used for checking whether the file have read permission or not
+-w : flag used for checking whether the file have write permission or not
+-x : flag used for checking whether the file have execution permission or not
